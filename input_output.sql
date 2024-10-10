@@ -15,3 +15,9 @@ VALUES
 (4, 'Smith', '02-06-2002', 20000.02);
 
 SELECT * FROM Employees;
+--Output only specific Columns
+SELECT emp_id,emp_name,emp_dob FROM Employees;
+--Count all Rows
+SELECT COUNT(*) FROM Employees;
+--Output Distinct from the columns
+SELECT DISTINCT emp_name FROM Employees;
